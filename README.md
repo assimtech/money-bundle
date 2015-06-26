@@ -24,3 +24,12 @@ $bundles = array(
 ## Services Exposed
 
 This bundle exposes the `Assimtech\Money\Accountant` as the symfony service `assimtech_money.accountant`
+
+See [Money](https://github.com/assimtech/money) for documentation
+
+
+## Twig integration
+
+This bundle exposes the `Assimtech\Money\Accountant` as a `Twig_Extension`
+
+See [Money](https://github.com/assimtech/money) for documentation
