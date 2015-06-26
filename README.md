@@ -1,5 +1,10 @@
 # MoneyBundle
 
+[![Build Status](https://travis-ci.org/assimtech/money-bundle.svg?branch=master)](https://travis-ci.org/assimtech/money-bundle)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/assimtech/money-bundle/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/assimtech/money-bundle/?branch=master)
+[![Code Coverage](https://scrutinizer-ci.com/g/assimtech/money-bundle/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/assimtech/money-bundle/?branch=master)
+
+
 ## Installation
 
 ```shell
@@ -10,8 +15,7 @@ Add the bundle to you `AppKernel`
 
 ```php
 $bundles = array(
-    /** *** */
-
+    /** Your other bundles */
     new Assimtech\MoneyBundle\AssimtechMoneyBundle(),
 );
 ```
