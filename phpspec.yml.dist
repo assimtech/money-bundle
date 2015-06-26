@@ -1,0 +1,5 @@
+---
+suites:
+    AssimtechMoneyBundle:
+        namespace: Assimtech\MoneyBundle
+        psr4_prefix: Assimtech\MoneyBundle

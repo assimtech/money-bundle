@@ -1,0 +1,16 @@
+---
+suites:
+    AssimtechMoneyBundle:
+        namespace: Assimtech\MoneyBundle
+        psr4_prefix: Assimtech\MoneyBundle
+
+extensions:
+    - PhpSpec\Extension\CodeCoverageExtension
+
+code_coverage:
+    format:
+        - html
+    output:
+        html: coverage
+    blacklist:
+        - src/Phar

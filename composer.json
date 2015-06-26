@@ -1,0 +1,27 @@
+{
+    "name": "assimtech/money-bundle",
+    "type": "library",
+    "description": "Money symfony bundle",
+    "homepage": "https://github.com/assimtech/money-bundle",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.3.3",
+
+        "assimtech/money": "~1.0",
+        "symfony/http-kernel": "~2.0",
+        "symfony/config": "~2.0",
+        "symfony/dependency-injection": "~2.0"
+    },
+    "require-dev": {
+        "sebastian/phpcpd": "~2.0",
+        "squizlabs/php_codesniffer": "~2.3",
+        "phpmd/phpmd": "~2.2",
+        "phpspec/phpspec": "~2.2",
+        "henrikbjorn/phpspec-code-coverage": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Assimtech\\MoneyBundle\\": "src"
+        }
+    }
+}

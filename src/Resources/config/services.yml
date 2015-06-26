@@ -1,0 +1,8 @@
+---
+parameters:
+    assimtech_money.accountant.class: Assimtech\Money\Accountant
+
+
+services:
+    assimtech_money.accountant:
+        class: %assimtech_money.accountant.class%
