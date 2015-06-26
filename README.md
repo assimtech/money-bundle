@@ -4,6 +4,8 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/assimtech/money-bundle/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/assimtech/money-bundle/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/assimtech/money-bundle/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/assimtech/money-bundle/?branch=master)
 
+This bundle integrates [Money](https://github.com/assimtech/money) with Symfony.
+
 
 ## Installation
 
