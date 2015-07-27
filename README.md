@@ -13,7 +13,7 @@ This bundle integrates [Money](https://github.com/assimtech/money) with Symfony.
 composer require assimtech/money-bundle
 ```
 
-Add the bundle to you `AppKernel`
+Add the bundle to your `AppKernel`
 
 ```php
 $bundles = array(
