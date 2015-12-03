@@ -5,11 +5,11 @@ parameters:
 
 services:
     assimtech_money.accountant:
-        class: %assimtech_money.accountant.class%
+        class: "%assimtech_money.accountant.class%"
 
     assimtech_money.twig.accountant:
         class: Assimtech\Money\Twig\Extension\Accountant
         arguments:
-            - @assimtech_money.accountant
+            - "@assimtech_money.accountant"
         tags:
             - { name: twig.extension }
