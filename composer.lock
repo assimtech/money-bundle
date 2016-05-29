@@ -9,29 +9,29 @@
     "packages": [
         {
             "name": "assimtech/money",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/assimtech/money.git",
-                "reference": "db15fead9a0d7ac205bed6211fb1bb7249e88638"
+                "reference": "b481a29c12887d5d2581fdd2da08c06744cce612"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/assimtech/money/zipball/db15fead9a0d7ac205bed6211fb1bb7249e88638",
-                "reference": "db15fead9a0d7ac205bed6211fb1bb7249e88638",
+                "url": "https://api.github.com/repos/assimtech/money/zipball/b481a29c12887d5d2581fdd2da08c06744cce612",
+                "reference": "b481a29c12887d5d2581fdd2da08c06744cce612",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3",
-                "symfony/intl": "~2.0",
-                "twig/twig": "~1.0"
+                "php": ">=5.5.9",
+                "symfony/intl": "^3.0",
+                "twig/twig": "^1.0"
             },
             "require-dev": {
-                "henrikbjorn/phpspec-code-coverage": "~1.0",
-                "phpmd/phpmd": "~2.2",
-                "phpspec/phpspec": "~2.2",
-                "sebastian/phpcpd": "~2.0",
-                "squizlabs/php_codesniffer": "~2.3"
+                "henrikbjorn/phpspec-code-coverage": "^1.0",
+                "phpmd/phpmd": "^2.2",
+                "phpspec/phpspec": "^2.2",
+                "sebastian/phpcpd": "^2.0",
+                "squizlabs/php_codesniffer": "^2.3"
             },
             "type": "library",
             "autoload": {
@@ -45,7 +45,7 @@
             ],
             "description": "Money, Currency and Accounting",
             "homepage": "https://github.com/assimtech/money",
-            "time": "2015-06-26 04:48:55"
+            "time": "2016-05-29 22:45:11"
         },
         {
             "name": "psr/log",
@@ -501,25 +501,24 @@
         },
         {
             "name": "symfony/intl",
-            "version": "v2.8.6",
+            "version": "v3.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/intl.git",
-                "reference": "0ca1089d64b929fa999d709423f74d858bec11d4"
+                "reference": "a602fe5a36cfc6367c5495b38a88c443570e75da"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/intl/zipball/0ca1089d64b929fa999d709423f74d858bec11d4",
-                "reference": "0ca1089d64b929fa999d709423f74d858bec11d4",
+                "url": "https://api.github.com/repos/symfony/intl/zipball/a602fe5a36cfc6367c5495b38a88c443570e75da",
+                "reference": "a602fe5a36cfc6367c5495b38a88c443570e75da",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.9",
-                "symfony/polyfill-intl-icu": "~1.0",
-                "symfony/polyfill-php54": "~1.0"
+                "php": ">=5.5.9",
+                "symfony/polyfill-intl-icu": "~1.0"
             },
             "require-dev": {
-                "symfony/filesystem": "~2.1|~3.0.0"
+                "symfony/filesystem": "~2.8|~3.0"
             },
             "suggest": {
                 "ext-intl": "to use the component with locales other than \"en\""
@@ -527,7 +526,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.8-dev"
+                    "dev-master": "3.0-dev"
                 }
             },
             "autoload": {
@@ -573,7 +572,7 @@
                 "l10n",
                 "localization"
             ],
-            "time": "2016-03-23 13:11:46"
+            "time": "2016-04-01 06:34:33"
         },
         {
             "name": "symfony/polyfill-intl-icu",
@@ -686,64 +685,6 @@
             "keywords": [
                 "compatibility",
                 "mbstring",
-                "polyfill",
-                "portable",
-                "shim"
-            ],
-            "time": "2016-05-18 14:26:46"
-        },
-        {
-            "name": "symfony/polyfill-php54",
-            "version": "v1.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/polyfill-php54.git",
-                "reference": "34d761992f6f2cc6092cc0e5e93f38b53ba5e4f1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php54/zipball/34d761992f6f2cc6092cc0e5e93f38b53ba5e4f1",
-                "reference": "34d761992f6f2cc6092cc0e5e93f38b53ba5e4f1",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.2-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Php54\\": ""
-                },
-                "files": [
-                    "bootstrap.php"
-                ],
-                "classmap": [
-                    "Resources/stubs"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony polyfill backporting some PHP 5.4+ features to lower PHP versions",
-            "homepage": "https://symfony.com",
-            "keywords": [
-                "compatibility",
                 "polyfill",
                 "portable",
                 "shim"
