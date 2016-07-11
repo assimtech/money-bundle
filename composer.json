@@ -4,13 +4,18 @@
     "description": "Money symfony bundle",
     "homepage": "https://github.com/assimtech/money-bundle",
     "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Assimtech\\MoneyBundle\\": "src"
+        }
+    },
     "require": {
         "php": ">=5.5.9",
 
         "assimtech/money": "^1.0",
-        "symfony/http-kernel": "^3.0",
-        "symfony/config": "^3.0",
-        "symfony/dependency-injection": "^3.0"
+        "symfony/http-kernel": "~2.3|~3.0",
+        "symfony/config": "~2.3|~3.0",
+        "symfony/dependency-injection": "~2.3|~3.0"
     },
     "require-dev": {
         "sebastian/phpcpd": "^2.0",
@@ -18,10 +23,5 @@
         "phpmd/phpmd": "^2.2",
         "phpspec/phpspec": "^2.2",
         "henrikbjorn/phpspec-code-coverage": "^1.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "Assimtech\\MoneyBundle\\": "src"
-        }
     }
 }
