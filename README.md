@@ -7,6 +7,12 @@
 This bundle integrates [Money](https://github.com/assimtech/money) with Symfony.
 
 
+**THIS REPOSITORY HAS BEEN MOVED TO [Assimtech\FiatBundle](https://github.com/assimtech/fiat-bundle)**
+
+The last version of `Assimtech\Money` is `1.1.3`, `Assimtech\Fiat` follows on from `2.0.0`. The move is due to the naming of `Assimtech\Money\Money`.
+The last version of `Assimtech\MoneyBundle` is `1.0.4`, `Assimtech\FiatBundle` follows on from `2.0.0`.
+
+
 ## Installation
 
 ```shell
